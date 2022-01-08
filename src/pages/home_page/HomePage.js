@@ -18,10 +18,10 @@ const useStyles = makeStyles((theme) => ({
     display: "flex",
     justifyContent: "center",
     alignItems: "center",
-    marginTop: "45vh",
   },
   datepick: {
     margin: "auto",
+    padding: "10px",
     display: "flex !important",
     justifyContent: "center !important",
   },
@@ -41,7 +41,6 @@ const useStyles = makeStyles((theme) => ({
 function HomePage({ nasa, getData }) {
   const classes = useStyles();
   const [date, setdate] = React.useState([null, null]);
-
   const handleClose = (event, reason) => {
     if (reason === "clickaway") {
       return;
@@ -115,7 +114,7 @@ function HomePage({ nasa, getData }) {
           )}
 
           {nasa.data.length > 0 && (
-            <Grid container spacing={3} justifyContent="center">
+            <Grid container justifyContent="center">
               {nasa.data.map((item) => (
                 <ImageCard key={item.id} data={item} />
               ))}
