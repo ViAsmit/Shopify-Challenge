@@ -41,14 +41,11 @@ const useStyles = makeStyles((theme) => ({
 function HomePage({ nasa, getData }) {
   const classes = useStyles();
   const [date, setdate] = React.useState([null, null]);
-  const [open, setOpen] = React.useState(false);
 
   const handleClose = (event, reason) => {
     if (reason === "clickaway") {
       return;
     }
-
-    setOpen(false);
   };
 
   const handleDateChange = (date) => {
