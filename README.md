@@ -1,4 +1,7 @@
-# Getting Started with Create React App
+# Shopify Frontend Challeng
+
+<img src="/screenshots/1.png" /> <img src="/screenshots/2.png" /> <img src="/screenshots/3.png"/> <img src="/screenshots/4.png" /> <img src="/screenshots/5.png" /> <img src="/screenshots/6.png"/>  <img src="/screenshots/6.png"/>
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
